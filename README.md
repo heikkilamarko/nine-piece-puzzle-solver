@@ -1,4 +1,4 @@
-# nine-piece-puzzle-solver
+# 9-Piece Puzzle Solver
 
 Solves the following 9-piece puzzle:
 
