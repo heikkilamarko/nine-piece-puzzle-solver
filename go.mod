@@ -1,3 +1,3 @@
 module nine-piece-puzzle-solver
 
-go 1.19
+go 1.20
