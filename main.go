@@ -26,7 +26,6 @@ func getBoardCoords(i int) (r int, c int) {
 }
 
 func isValidSolution() bool {
-
 	for r := 0; r < 3; r++ {
 		for c := 0; c < 2; c++ {
 			if !board[r][c].isEmpty() && !board[r][c+1].isEmpty() && board[r][c].right != -board[r][c+1].left {
@@ -110,7 +109,6 @@ var (
 )
 
 func main() {
-
 	pieces := [9]piece{
 		{white, black, -white, greenSmall},
 		{white, black, greenSmall, -greenBig},
@@ -123,5 +121,4 @@ func main() {
 		{white, -greenBig, greenSmall, black}}
 
 	nextPiece(&pieces, 0)
-
 }
